@@ -677,11 +677,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -771,70 +766,18 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:my-10 {
-    margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
-  }
-
   .md\:my-40 {
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
-  .md\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .md\:w-\[700px\] {
-    width: 700px;
-  }
-
-  .md\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .md\:w-\[375px\] {
-    width: 375px;
-  }
-
-  .md\:w-\[376px\] {
-    width: 376px;
-  }
-
-  .md\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .md\:w-10\/12 {
-    width: 83.333333%;
-  }
-
-  .md\:w-\[40\%\] {
-    width: 40%;
-  }
-
-  .md\:w-\[43\%\] {
-    width: 43%;
-  }
-
-  .md\:max-w-\[43\%\] {
-    max-width: 43%;
-  }
-
-  .md\:rounded-lg {
-    border-radius: 0.5rem;
-  }
-
-  .md\:rounded-xl {
-    border-radius: 0.75rem;
-  }
-
-  .md\:rounded-2xl {
-    border-radius: 1rem;
+  .md\:max-w-\[48\%\] {
+    max-width: 48%;
   }
 
   .md\:rounded-3xl {
@@ -846,56 +789,21 @@ video {
     background-color: rgb(243 230 216 / var(--tw-bg-opacity));
   }
 
-  .md\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .md\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .md\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .md\:pt-12 {
     padding-top: 3rem;
   }
-}
 
-@media (min-width: 1024px) {
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .lg\:w-\[480px\] {
-    width: 480px;
-  }
-
-  .lg\:w-\[580px\] {
-    width: 580px;
-  }
-
-  .lg\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .lg\:w-\[490px\] {
-    width: 490px;
-  }
-
-  .lg\:w-\[485px\] {
-    width: 485px;
-  }
-
-  .lg\:w-\[486px\] {
-    width: 486px;
-  }
-
-  .lg\:max-w-96 {
-    max-width: 24rem;
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 }
